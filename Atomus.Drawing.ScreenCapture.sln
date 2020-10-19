@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{058B6911-09B3-405D-AFB2-EC0B96C46B6D}"
+	ProjectSection(SolutionItems) = preProject
+		src\ScreenCapture..cs = src\ScreenCapture..cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Drawing.ScreenCapture(dotNet)", "dotNet\Atomus.Drawing.ScreenCapture(dotNet).csproj", "{F83F07BB-B00D-49E4-B18E-3388787930B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F83F07BB-B00D-49E4-B18E-3388787930B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83F07BB-B00D-49E4-B18E-3388787930B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83F07BB-B00D-49E4-B18E-3388787930B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83F07BB-B00D-49E4-B18E-3388787930B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13C7BE57-98D3-43A4-8F28-0AD0DDEC0FCA}
+	EndGlobalSection
+EndGlobal
